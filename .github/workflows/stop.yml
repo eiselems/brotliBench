@@ -1,12 +1,8 @@
 name: Test exiting on failure
-
-on:
-  pull-request:
-    branches:
-    - main
+on: [pull_request]
 
 jobs:
-  build:
+  fail:
     runs-on: ubuntu-latest
     
     steps:

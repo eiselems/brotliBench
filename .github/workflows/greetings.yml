@@ -1,4 +1,4 @@
-name: Skip fail
+name: Freeze
 on: [pull_request]
 
 jobs:

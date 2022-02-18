@@ -1,5 +1,7 @@
 name: Freeze
-on: [pull_request]
+on:
+  branch_protection_rule:
+    types: [created, deleted]
 
 jobs:
   fail:

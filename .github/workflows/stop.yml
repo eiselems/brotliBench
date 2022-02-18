@@ -1,4 +1,4 @@
-name: Test exiting on failure
+name: Freeze
 on: [pull_request]
 
 jobs:

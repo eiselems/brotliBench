@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Try to fail
-      run: exit 1
+      run: echo "Hello World!"

@@ -1,0 +1,15 @@
+name: Test exiting on failure
+
+on:
+  pull-request:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Try to fail
+      run: exit 1
